@@ -1,0 +1,127 @@
+{
+  "project_info": {
+    "project_number": "829262470938",
+    "firebase_url": "https://slavyankabd-default-rtdb.firebaseio.com",
+    "project_id": "slavyankabd",
+    "storage_bucket": "slavyankabd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:829262470938:android:a204666e5587d115ef96a3",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "829262470938-j56bn3aqieq92tb0609cgbjbd91advar.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXQOdGrqnxeHAHvH6nhHDAsDuiEczmoio"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "829262470938-j56bn3aqieq92tb0609cgbjbd91advar.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:829262470938:android:6d5c9e1ab8958559ef96a3",
+        "android_client_info": {
+          "package_name": "com.example.slavyanka3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "829262470938-j56bn3aqieq92tb0609cgbjbd91advar.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXQOdGrqnxeHAHvH6nhHDAsDuiEczmoio"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "829262470938-j56bn3aqieq92tb0609cgbjbd91advar.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:829262470938:android:be3a1b4146895422ef96a3",
+        "android_client_info": {
+          "package_name": "com.slavyanka.auth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "829262470938-j56bn3aqieq92tb0609cgbjbd91advar.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXQOdGrqnxeHAHvH6nhHDAsDuiEczmoio"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "829262470938-j56bn3aqieq92tb0609cgbjbd91advar.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:829262470938:android:0f05b2a372ed4ea7ef96a3",
+        "android_client_info": {
+          "package_name": "com.slavyanka.slavanka2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "829262470938-j56bn3aqieq92tb0609cgbjbd91advar.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXQOdGrqnxeHAHvH6nhHDAsDuiEczmoio"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "829262470938-j56bn3aqieq92tb0609cgbjbd91advar.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

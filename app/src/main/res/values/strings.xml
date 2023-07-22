@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Славянка</string>
+    <string name="some_id">
+        \u00D0\u00A1\u00D0\u009B\u00D0\u0090\u00D0\u0092\u00D0\u00AF\u00D0\u009D\u00D0\u009A\u00D0\u0090
+    </string>
+    <string name="Show_more"><u>Подробнее</u></string>
+    <string name="date1"><u>12 июля 2023</u></string>
+    <string name="lengthwarn"><u>Неверный номер карты!</u></string>
+    <string name="email_warn"><u>Адрес почты не может быть пустым!</u></string>
+    <string name="date2"><u>15 июля 2023</u></string>
+    <string name="date1_more"><u>Сроки проведения: с 12 по 25 июля 2023 года</u></string>
+    <string name="date2_more"><u>Сроки проведения: с 15 по 25 июля 2023 года</u></string>
+    <string name="addbonus_success">Бонусы добавлены!</string>
+    <string name="cardnum_empty">Номер карты не может быть пустым</string>
+    <string name="addbonus_failure">Бонусы не добавлены!</string>
+    <string name="addbonus_error">Бонусы не добавлены в результате сбоя!</string>
+    <string name="addbonus_loginfailure">Ошибка при логине!</string>
+    <string name="addbonus_nologin">Ошибка при логине!</string>
+    <string name="button_sign_in">Войти</string>
+    <string name="password_sign_in_hint">Введите пароль</string>
+    <string name="login_sign_in_hint">Введите email</string>
+    <string name="login_can_not_be_empty">Логин не может быть пустым</string>
+    <string name="password_can_not_be_empty">Пароль не может быть пустым</string>
+    <string name="login_or_password_error">Неправильный логин или пароль</string>
+    <string name="register_sign_in_page">Зарегистрироваться</string>
+    <string name="password_sign_up_enter">Введите пароль</string>
+    <string name="password_sign_up_reenter">Подтвердите пароль</string>
+    <string name="sign_up_title_page">Регистарция</string>
+    <string name="button_sign_up">Зарегистрироваться\n</string>
+    <string name="error_re_enter_password">Пароли не совпадают</string>
+    <string name="field_can_not_be_empty">Поле не может быть пустым!</string>
+    <string name="error_can_not_perfom_sign_up">Что-то пошло не так, попробуйте позже</string>
+    <string name="sign_up_succefull_messasges">Вы успешно зарегестрированны</string>
+    <string name="login_succesful_message">Вы успешно влогинились!</string>
+    <string name="sign_up_succefull_messasges_ok_button">ОК</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="sign_in_title">Добро пожаловать!</string>
+    <string name="name_sign_in_hint">Введите nickaname</string>
+    <string name="phone_number_hint">Введите номер телефона</string>
+    <string name="register_cities_hint">Выберите город</string>
+    <string name="register_page_date_of_birth">Дата рождения</string>
+    <string name="register_fio_hint">ФИО</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

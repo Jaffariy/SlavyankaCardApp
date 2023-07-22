@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title=""
+        android:icon="@drawable/menu_mainpage"
+        android:id="@+id/mainpage"
+        />
+
+    <item android:title=""
+        android:icon="@drawable/menu_shopmap"
+        android:id="@+id/shopmap"
+        />
+
+    <item android:title=""
+        android:icon="@drawable/menu_discounts"
+        android:id="@+id/discounts"
+        />
+
+    <item android:title=""
+        android:icon="@drawable/menu_history"
+        android:id="@+id/history"
+        />
+
+
+    <item android:title=""
+        android:icon="@drawable/menu_profile"
+        android:id="@+id/profile"
+        />
+
+
+</menu>

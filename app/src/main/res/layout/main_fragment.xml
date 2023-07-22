@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp">
+
+
+        <TextView
+            android:id="@+id/b"
+            android:layout_width="201dp"
+            android:layout_height="41dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/unbounded_medium"
+            android:gravity="top"
+            android:text="Мои бонусы"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView2"
+            app:layout_constraintEnd_toStartOf="@+id/moreMyBonuses"
+            app:layout_constraintHorizontal_bias="0.152"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView15" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="179dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="77dp"
+            app:layout_constraintEnd_toStartOf="@+id/imageView4"
+            app:layout_constraintHorizontal_bias="0.133"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView15"
+            app:srcCompat="@drawable/fone" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="179dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="212dp"
+            android:layout_marginTop="77dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView15"
+            app:srcCompat="@drawable/fone" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="165dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="38dp"
+            android:layout_marginBottom="33dp"
+            android:fontFamily="@font/montserrat_medium"
+            android:gravity="top"
+            android:lineHeight="17sp"
+            android:text="Постоянная скидка"
+            android:textSize="17sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+            app:layout_constraintEnd_toEndOf="@+id/imageView4"
+            app:layout_constraintStart_toStartOf="@+id/imageView4"
+            app:layout_constraintTop_toBottomOf="@+id/moreMyBonuses" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="140dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="31dp"
+            android:fontFamily="@font/montserrat_medium"
+            android:gravity="top"
+            android:lineHeight="17sp"
+            android:text="Бонусные баллы"
+            android:textSize="17sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+            app:layout_constraintEnd_toEndOf="@+id/imageView2"
+            app:layout_constraintStart_toStartOf="@+id/imageView2"
+            app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="25dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="345dp"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toStartOf="@+id/imageView4"
+            app:layout_constraintHorizontal_bias="0.48"
+            app:layout_constraintStart_toEndOf="@+id/bonusesMainPage"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/crown" />
+
+        <TextView
+            android:id="@+id/bonusesMainPage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="19dp"
+            android:layout_marginEnd="117dp"
+            android:layout_marginBottom="9dp"
+            android:fontFamily="@font/unbounded_medium"
+            android:text="590"
+            android:textColor="#C4161C"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+            app:layout_constraintEnd_toStartOf="@+id/imageView4"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/imageView2"
+            app:layout_constraintTop_toTopOf="@+id/imageView2"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/cardNumber"
+            android:layout_width="131dp"
+            android:layout_height="23dp"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="105dp"
+            android:elevation="1000dp"
+            android:fontFamily="@font/unbounded_medium"
+            android:gravity="center"
+            android:text="123456"
+            android:textColor="#C4161C"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView18"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView18" />
+
+
+
+        <TextView
+            android:id="@+id/discountMainPage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="34dp"
+            android:layout_marginEnd="119dp"
+            android:layout_marginBottom="7dp"
+            android:fontFamily="@font/unbounded_medium"
+            android:text="3 %"
+            android:textColor="#C4161C"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+            app:layout_constraintEnd_toEndOf="@+id/imageView4"
+            app:layout_constraintStart_toStartOf="@+id/imageView4"
+            app:layout_constraintTop_toTopOf="@+id/imageView4" />
+
+        <TextView
+            android:id="@+id/moreMyBonuses"
+            android:layout_width="112dp"
+            android:layout_height="22dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="190dp"
+            android:fontFamily="@font/montserrat_light"
+            android:gravity="top"
+            android:text="@string/Show_more"
+            android:textAppearance="@style/some_id"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.513"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView15" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="415dp"
+            android:layout_height="306dp"
+            android:layout_marginBottom="170dp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.497"
+            app:srcCompat="@drawable/main_panel" />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="156dp"
+            android:layout_height="34dp"
+            android:layout_marginEnd="180dp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView19"
+            app:layout_constraintEnd_toStartOf="@+id/imageView17"
+            app:layout_constraintHorizontal_bias="0.64"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.695"
+            app:srcCompat="@drawable/main_logo" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="39dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="25dp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView20"
+            app:layout_constraintEnd_toEndOf="@+id/imageView20"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/imageView20"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/bell" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="408dp"
+            android:layout_height="159dp"
+            app:layout_constraintBottom_toTopOf="@+id/b"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/card_backgr" />
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="306dp"
+            android:layout_height="141dp"
+            android:layout_marginBottom="26dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView18"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.523"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView18"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/card_logo" />
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="80dp"
+            app:layout_constraintBottom_toTopOf="@+id/cardNumber"
+            app:layout_constraintEnd_toEndOf="@+id/imageView19"
+            app:layout_constraintHorizontal_bias="0.125"
+            app:layout_constraintStart_toStartOf="@+id/cardNumber"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.477"
+            app:srcCompat="@drawable/card_star" />
+
+        <ImageView
+            android:id="@+id/imageView37"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView18"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.909"
+            app:layout_constraintStart_toEndOf="@+id/imageView16"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/bell" />
+
+        <Button
+            android:id="@+id/notificationButt"
+            android:layout_width="64dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="175dp"
+            android:background="@android:color/transparent"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView37"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView16"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView26"
+            android:layout_width="25dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="127dp"
+            android:layout_marginTop="42dp"
+            android:layout_marginEnd="27dp"
+            android:layout_marginBottom="13dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+            app:layout_constraintEnd_toEndOf="@+id/imageView2"
+            app:layout_constraintStart_toStartOf="@+id/imageView2"
+            app:layout_constraintTop_toTopOf="@+id/imageView2"
+            app:srcCompat="@drawable/crown" />
+
+        <Button
+            android:id="@+id/toCardButton"
+            android:layout_width="334dp"
+            android:layout_height="171dp"
+            android:layout_marginBottom="-100dp"
+            android:background="@android:color/transparent"
+            android:elevation="1000dp"
+            app:layout_constraintBottom_toTopOf="@+id/cardNumber"
+            app:layout_constraintEnd_toEndOf="@+id/imageView15"
+            app:layout_constraintStart_toStartOf="@+id/imageView15"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="387dp"
+            android:layout_height="1103dp"
+            android:layout_marginTop="235dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView15"
+            app:srcCompat="@drawable/main_page_discounts" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</ScrollView>
+

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView35"
+            android:layout_width="414dp"
+            android:layout_height="111dp"
+            android:layout_marginTop="-7dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.666"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/discounts_header" />
+
+        <ImageView
+            android:id="@+id/imageView49"
+            android:layout_width="387dp"
+            android:layout_height="802dp"
+            android:layout_marginTop="76dp"
+            android:layout_marginBottom="300dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/discounts_info" />
+
+        <TextView
+            android:id="@+id/bonuses2"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="118dp"
+            android:layout_marginEnd="287dp"
+            android:layout_marginBottom="653dp"
+            android:fontFamily="@font/unbounded_semibold"
+            android:gravity="center|left"
+            android:text="450"
+            android:textColor="#C4161C"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView49"
+            app:layout_constraintEnd_toEndOf="@+id/imageView49"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/imageView49"
+            app:layout_constraintTop_toTopOf="@+id/imageView49"
+            app:layout_constraintVertical_bias="0.555" />
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="26dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="124dp"
+            android:layout_marginBottom="658dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView49"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.34"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView49"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/crown" />
+
+        <TextView
+            android:id="@+id/discountAboutCardPage2"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="114dp"
+            android:layout_marginBottom="648dp"
+            android:fontFamily="@font/unbounded_semibold"
+            android:gravity="center|left"
+            android:text="3 %"
+            android:textColor="#C4161C"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView49"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.694"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView49"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

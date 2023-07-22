@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/User_fio"
+        android:layout_width="323dp"
+        android:layout_height="57dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="61dp"
+        android:elevation="1000dp"
+        android:fontFamily="@font/unbounded_medium"
+        android:gravity="center|center_horizontal|top|center_vertical"
+        android:text="Имя Фамилия"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/user_fio"
+        android:layout_width="279dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="192dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginBottom="22dp"
+        android:elevation="1000dp"
+        android:fontFamily="@font/unbounded_medium"
+        android:gravity="center|center_horizontal|top|center_vertical"
+        android:text="Карта лояльности"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView13"
+        app:layout_constraintEnd_toEndOf="@+id/imageView13"
+        app:layout_constraintTop_toTopOf="@+id/imageView3" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="83dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="75dp"
+        android:elevation="1000dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:srcCompat="@drawable/more" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="375dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="650dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.516"
+        app:srcCompat="@drawable/profile_card_border" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="18dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="329dp"
+        android:layout_marginTop="198dp"
+        android:layout_marginBottom="20dp"
+        android:elevation="100dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView13"
+        app:layout_constraintStart_toStartOf="@+id/imageView13"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:srcCompat="@drawable/info_logo" />
+
+    <ImageView
+        android:id="@+id/xyi"
+        android:layout_width="175dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="215dp"
+        android:layout_marginBottom="285dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mydata_button" />
+
+    <ImageView
+        android:id="@+id/contactsButt"
+        android:layout_width="175dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="285dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/contacts" />
+
+    <ImageView
+        android:id="@+id/slavjanka_PIDORASY"
+        android:layout_width="175dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="215dp"
+        android:layout_marginBottom="95dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/about_button" />
+
+    <ImageView
+        android:id="@+id/xuiiii2"
+        android:layout_width="175dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="215dp"
+        android:layout_marginTop="-1dp"
+        android:layout_marginBottom="90dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/exit_button" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="672dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/panel_up" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="750dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/down_panel" />
+
+    <Button
+        android:id="@+id/myDataButt"
+        android:layout_width="173dp"
+        android:layout_height="75dp"
+        android:layout_marginEnd="215dp"
+        android:layout_marginBottom="287dp"
+        android:background="@android:color/transparent"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Contact"
+        android:layout_width="176dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="215dp"
+        android:layout_marginBottom="290dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@android:color/transparent"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/aboutAppButt"
+        android:layout_width="176dp"
+        android:layout_height="77dp"
+        android:layout_marginEnd="215dp"
+        android:layout_marginBottom="95dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@android:color/transparent"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/exitButt"
+        android:layout_width="176dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="215dp"
+        android:layout_marginBottom="95dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@android:color/transparent"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/threeButt"
+        android:layout_width="47dp"
+        android:layout_height="39dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="740dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView11"
+        android:background="@android:color/transparent"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/infoButt"
+        android:layout_width="63dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="328dp"
+        android:layout_marginBottom="520dp"
+        android:background="@android:color/transparent"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.582" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
